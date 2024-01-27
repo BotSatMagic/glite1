@@ -47,7 +47,7 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget && wget -O - http
 #### EN CASO QUE QUIERA USAR ESTE MÉTODO DEBE DE EDITAR (Previo a una Bifurcación)
 - [`Repositorio`](https://github.com/BotSatMagic/GataBotLite-MD/blob/14da583cddcf76285988dadb76cfc77f9373d8a8/gatalite.sh#L155)
 - [`Nombre del Bot`](https://github.com/BotSatMagic/GataBotLite-MD/blob/14da583cddcf76285988dadb76cfc77f9373d8a8/gatalite.sh#L159)
-- Actualizar: `https://raw.githubusercontent.com/BotSatMagic/GataBotLite-MD/master/gatalite.sh`
+- Actualizar: `https://raw.githubusercontent.com/BotSatMagic/glite1/master/gatalite.sh`
 ### 🌼 INSTALACIÓN MANUAL - TERMUX 🌼
 ```bash
 termux-setup-storage
@@ -60,7 +60,7 @@ yarn install
 npm install
 npm start
 ```
-`grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/BotSatMagic/GataBotLite-MD/master/update.sh | bash `
+`grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/BotSatMagic/glite1/master/update.sh | bash `
 
 ### 🍁 TERMUX 24/7 🍁 
 > Comandos para realizar una ejecución 24/7

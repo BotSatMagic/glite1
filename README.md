@@ -55,7 +55,7 @@ apt update
 apt upgrade
 pkg install -y git nodejs ffmpeg imagemagick yarn
 git clone https://github.com/BotSatMagic/glite1 
-cd GataBotLite-MD
+cd glite1
 yarn install
 npm install
 npm start

@@ -105,3 +105,6 @@ p.emit('message', line.trim())
 })
 }}}
 start('main.js')
+})
+}}}
+start('main.js')

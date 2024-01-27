@@ -42,7 +42,7 @@
 termux-setup-storage
 ```
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget && wget -O - https://raw.githubusercontent.com/BotSatMagic/GataBotLite-MD/master/gatalite.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget && wget -O - https://raw.githubusercontent.com/BotSatMagic/glite1/master/gatalite.sh | bash
 ```
 #### EN CASO QUE QUIERA USAR ESTE MÉTODO DEBE DE EDITAR (Previo a una Bifurcación)
 - [`Repositorio`](https://github.com/BotSatMagic/GataBotLite-MD/blob/14da583cddcf76285988dadb76cfc77f9373d8a8/gatalite.sh#L155)
@@ -54,7 +54,7 @@ termux-setup-storage
 apt update
 apt upgrade
 pkg install -y git nodejs ffmpeg imagemagick yarn
-git clone https://github.com/BotSatMagic/GataBotLite-MD 
+git clone https://github.com/BotSatMagic/glite1 
 cd GataBotLite-MD
 yarn install
 npm install
@@ -92,7 +92,7 @@ pm2 delete all
 > **Note** Demanda consumo de RAM y CPU, el resultado mejora mientras las especificaciones del dispositivo sean moderadas
 
 ### 🌹 INSTALACIÓN EN REPLIT 🌹
-<a target="_blank" href="https://replit.com/github/BotSatMagic/GataBotLite-MD"><img alt="Run on Replit" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg"></a>
+<a target="_blank" href="https://replit.com/github/BotSatMagic/glite1"><img alt="Run on Replit" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg"></a>
 > **Note** Agregue estos comandos en Shell para empezar la instalación automática por Replit:
 ```bash
 npm install -g ffmpeg imagemagick git yarn && npm i && node --no-warnings index.js
@@ -106,8 +106,8 @@ npm install -g ffmpeg imagemagick git yarn && npm i && node --no-warnings index.
 * Descargar e instala FFmpeg [`Aquí`](https://ffmpeg.org/download.html) (**No olvide agregar FFmpeg a la variable de entorno PATH**)
 * Descargar e instala ImageMagick [`Aquí`](https://imagemagick.org/script/download.php)
 ```bash
-git clone https://github.com/BotSatMagic/GataBotLite-MD
-cd GataBotLite-MD
+git clone https://github.com/BotSatMagic/glite1
+cd glite1
 npm install -g yarn
 yarn
 npm install 
